@@ -1,10 +1,17 @@
-Modifications on top of nweb:
+#nweb-modern
+
+nweb is a tiny static-page webserver from 
+[IBM]((from http://www.ibm.com/developerworks/systems/library/es-nweb/) ).
+I've made some minor convenience edits to make it usable for local testing / 
+development.
+
+### Changes since version 23
 
 1. Allowed access for
     - svg, css, js, and map files
     - edited README.txt -> README.md and made the syntax markdown-compliant
 
-newb 23 readme:
+### newb 23 readme:
 
 1.  Bug fixed - was duplicating errors in the nweb.log file 
     - thanks to Kieran Grant for stopping this and pointing out the fix.
